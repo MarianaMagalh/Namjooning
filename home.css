@@ -1,0 +1,409 @@
+@font-face {
+    font-family: 'Bridger';
+    src: url('fonte/Bridger-2OMXW.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen {
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(0deg, rgba(66,24,32,1) 0%, rgba(205,93,103,1) 100%);
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.menu{
+    background-color: #CD5D67;
+    width: auto;
+    height: 90px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    display: flex;
+    border-radius: 50px;
+    width: 5em;
+    height: 5em;
+    border-radius: 50px;
+}
+
+.menu-link{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+li{
+    margin: 0 15px;;
+}
+ 
+.menu-link a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+.usuario img{
+    display: flex;
+    border-radius: 50px;
+    margin-top: 10px;
+    width: 54px;
+    height: 54px;
+}
+
+
+.boas-vindas{
+    width: 40em;
+    height: 50em;
+    position: relative;
+}
+.font-normal{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    position: relative;
+    z-index: 1;
+    top: 5em;
+    left: 22em;
+}
+
+.font-Bridger{
+    font-family: 'Bridger', sans-serif;
+    font-size: 5em;
+    color: white;
+    width: 10px;
+    position: relative;
+    z-index: 2;
+    bottom: 1.5cm;
+    left: 9em;
+}
+
+.font-normal1{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size:2em;
+    color: white;
+    width: 10px;
+    position: relative;
+    z-index: 3;
+    bottom: 5em;
+    left: 29em;
+}
+
+.font-normal2{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 2em;
+    color: white;
+    width: 10px;
+    position: relative;
+    z-index: 4;
+    bottom: 6.5em;
+    left: 32em;
+}
+
+.text-boasVindas{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    position: relative;
+    text-align: justify;
+    z-index: 5;
+    bottom: 11em;
+    left: 14.5em;
+}
+
+.boas-vindas img{
+    width: 12em;
+    height: 12em;
+    border-radius: 10em;
+    position: relative;
+    z-index: 6;
+    bottom: 15em;
+    left: 80em;
+}
+
+
+.carrossel {
+    background-color: white;
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.carrossel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-item {
+    background-color: #91171F;
+    min-width: 45em;
+    min-height: 10em;
+    padding: 40px;
+    margin: 15px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.btn-inicial, .btn-final {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #cccccc00;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-inicial {
+    left: 10px;
+}
+
+.btn-final {
+    right: 10px;
+}
+
+.btn-inicial:hover, .btn-final:hover {
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 50%;
+}
+
+.carrossel h3 {
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1.9em;
+    color: black;
+    padding: 5px;
+    font-weight: normal;
+}
+
+.livro img {
+    border: solid 10px black;
+    width: 11em;
+    height: 18em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+}
+
+.carrossel-item p {
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+
+.box-autores{
+    width: auto;
+    height: 40em;
+    text-align: center;
+}
+
+.box-autores h3{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 2em;
+    color: white;
+    font-weight: normal;
+}
+
+.fotos-autores{
+    display: flex;
+    justify-content: center;
+}
+
+.fotos-autores img{
+    max-width: 100%;
+    width: 15em;
+    height: 15em;
+    border: solid 5px white;
+    border-radius: 50em;
+    margin: 10px;
+}
+
+.fotos a{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.vestibular{
+    width: auto;
+    height: 70em;
+}
+
+.ves-titulo{
+    background-color: white;
+    width: 35em;
+    height: 9em;
+    position: relative;
+    z-index: 1;
+    bottom: 1em;
+    left: 9em;
+}
+
+.ves-titulo p{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 2em;
+    color: black;
+    font-weight: normal;
+    text-align: left;
+    padding: 10px;
+}
+
+.livro1 img{
+    border: 5px solid white;
+    width: 15.5em;
+    height: 25em;
+    position: relative;
+    z-index: 2;
+    bottom: 10em;
+    left: 45em;
+}
+
+.info-lv1{
+    background-color: #BA1F33;
+    width: 35em;
+    height: 25.5em;
+    position: relative;
+    z-index: 3;
+    bottom: 37em;
+    left: 62em;
+}
+
+.info-lv1 p{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+    text-align: justify;
+}
+
+.livro2 img{
+    border: 5px solid white;
+    width: 15.5em;
+    height: 25em;
+    position: relative;
+    z-index: 4;
+    bottom: 52.3em;
+    left: 28em;
+}
+
+.info-lv2{
+    background-color: #BA1F33;
+    width: 18em;
+    height: 25.5em;
+    position: relative;
+    z-index: 3;
+    bottom: 79.3em;
+    left: 9em;
+}
+
+.info-lv2 p{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+    text-align: justify;
+}
+
+.livro3 img{
+    border: 5px solid white;
+    width: 15.5em;
+    height: 25em;
+    position: relative;
+    z-index: 4;
+    bottom: 88.7em;
+    left: 81em;
+}
+
+.info-lv3{
+    background-color: #BA1F33;
+    width: 35em;
+    height: 25.6em;
+    position: relative;
+    z-index: 3;
+    bottom: 115.7em;
+    left: 45em;
+}
+
+.info-lv3 p{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+    text-align: justify;
+}
+
+.box-info{
+    background-color: white;
+    width: 35em;
+    height: 15.4em;
+    position: relative;
+    z-index: 4;
+    bottom: 133em;
+    left: 9em;
+}
+
+.box-info p{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 2em;
+    color: black;
+    font-weight: normal;
+    text-align: justify;
+    padding: 10px;
+}
+
+.rodape{
+    background-color: #410B13;
+    width: auto;
+    height: 5em;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infos p, a{
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.infos h4{
+    font-family: 'Bridger', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    font-weight: normal;
+}
+
+.redes-sociais{
+    display: flex;
+    text-align: center;
+}
+
+.infos img{
+    width: 2em;
+    height: 2em;
+    border-radius: 10px;
+    margin-top: 14px;
+}
