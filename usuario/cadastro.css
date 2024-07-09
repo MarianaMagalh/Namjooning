@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Bridger';
+    src: url('fonte/Bridger-2OMXW.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*------------------------------------------------------------------------*/
+
+body{
+    background-color: #421820;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------------------------------------------------------------*/
+
+.containerForm{
+    background-color: white;
+    width: 35em;
+    height: 40em;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm h2{
+    color: black;
+    font-family: Bridger;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4em;
+}

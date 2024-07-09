@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Bridger';
+    src: url('fonte/Bridger-2OMXW.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    height: auto;
+}
+
+body{
+    height: auto;
+    margin: 0;
+    background-image: linear-gradient(to top, #421820, #CD5D67);
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.menu{
+    background-color: #CD5D67;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu img{
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.paginas{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    color: white;
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.usuario a{
+    padding: 0px;
+    width: 1px;
+    height: 10px;
+}
+
+.usuario img{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    margin-top: 1.5em;
+    border-radius: 50%;
+}
