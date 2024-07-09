@@ -231,7 +231,7 @@ h6{
     font-weight: normal;
     font-size: 1.9em;
     margin-top: 20px;
-    margin-left: 10.5em;
+    margin-left: 13.5em;
 }
 
 .fotos-autores{
@@ -265,13 +265,13 @@ h6{
 
 .vestibular{
     width: auto;
-    height: 40em;
+    height: 60em;
 }
 
 .ves-titulo{
     background-color: white;
-    width: 30em;
-    height: 6em;
+    width: 35em;
+    height: 9em;
     position: relative;
     z-index: 1;
     bottom: 1em;
@@ -280,7 +280,7 @@ h6{
 
 .ves-titulo p{
     font-family: 'Anek Kannada', sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
     color: black;
     font-weight: normal;
     text-align: left;
@@ -289,69 +289,66 @@ h6{
 
 .livro1 img{
     border: 5px solid white;
-    width: 13em;
-    height: 20em;
+    width: 15.5em;
+    height: 25em;
     position: relative;
     z-index: 2;
-    bottom: 7em;
-    left: 40em;
+    bottom: 10em;
+    left: 45em;
 }
 
 .info-lv1{
     background-color: #BA1F33;
-    width: 29em;
-    height: 17.5em;
+    width: 35em;
+    height: 25.5em;
     position: relative;
     z-index: 3;
-    bottom: 28.5em;
-    left: 54.5em;
+    bottom: 37em;
+    left: 62em;
 }
 
 .info-lv1 p{
     font-family: 'Anek Kannada', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
     font-weight: normal;
     padding: 10px;
-    margin: 10px;
     text-align: justify;
 }
 
 .livro2 img{
     border: 5px solid white;
-    width: 11em;
-    height: 17em;
+    width: 15.5em;
+    height: 25em;
     position: relative;
     z-index: 4;
-    bottom: 39em;
-    left: 27.5em;
+    bottom: 52.3em;
+    left: 28em;
 }
 
 .info-lv2{
     background-color: #BA1F33;
-    width: 17.5em;
-    height: 18em;
+    width: 18em;
+    height: 25.5em;
     position: relative;
-    margin: 10px;
     z-index: 3;
-    bottom: 57.9em;
-    left: 8.4em;
+    bottom: 79.3em;
+    left: 9em;
 }
 
 .info-lv2 p{
     font-family: 'Anek Kannada', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
     font-weight: normal;
-    padding: 5px;
-    margin: 7.3px;
+    padding: 10px;
     text-align: justify;
 }
 
 .livro3 img{
     border: 5px solid white;
-    width: 13em;
-    height: 20em;
+    width: 15.5em;
+    height: 25em;
     position: relative;
     z-index: 4;
     bottom: 88.7em;
@@ -360,8 +357,8 @@ h6{
 
 .info-lv3{
     background-color: #BA1F33;
-    width: 30em;
-    height: 20em;
+    width: 35em;
+    height: 25.6em;
     position: relative;
     z-index: 3;
     bottom: 115.7em;
@@ -370,7 +367,7 @@ h6{
 
 .info-lv3 p{
     font-family: 'Anek Kannada', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
     font-weight: normal;
     padding: 10px;
@@ -379,8 +376,8 @@ h6{
 
 .box-info{
     background-color: white;
-    width: 30em;
-    height: 13em;
+    width: 35em;
+    height: 15.4em;
     position: relative;
     z-index: 4;
     bottom: 133em;
@@ -389,7 +386,7 @@ h6{
 
 .box-info p{
     font-family: 'Anek Kannada', sans-serif;
-    font-size: 1em;
+    font-size: 2em;
     color: black;
     font-weight: normal;
     text-align: justify;
